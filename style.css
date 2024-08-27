@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; /* Center content horizontally */
+    gap: 20px;
+}
+
+.course-content {
+    flex: 1;
+    max-width: 60%; /* Remove or adjust this if you want a specific max-width */
+    background-color: #333; /* Gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 10px; /* Add some margin to make sure it's not too flush against the edges */
+}
+
+.course-features, .course-skills {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.course-features i, .course-skills i {
+    color: #00ff44;
+    margin-right: 10px;
+}
+
+.skills-list {
+    display: none;
+    padding-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+.reveal-button {
+    cursor: pointer;
+    color: #00ff6e;
+    text-decoration: underline;
+}
+
+.reveal-button:hover {
+    text-decoration: none;
+}
+
+.highlight {
+    background-color: #444; /* Darker gray for highlights */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#enroll-button {
+    padding: 15px 30px; /* Increase padding for a more prominent button */
+    font-size: 1.2rem; /* Slightly larger font size */
+    font-weight: bold; /* Bold text */
+    color: #ffffff; /* White text color */
+    background-color: #28a745; /* Green background */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+#enroll-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.35); /* Enhance shadow on hover */
+}
+
+#enroll-button:active {
+    background-color: #1e7e34; /* Even darker green on click */
+    transform: translateY(0); /* Reset lift effect on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); /* Less shadow on click */
+}
+
+#enroll-button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.5); /* Custom focus ring */
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#sellfy-buy-button-hider {
+    display: none;
+}
